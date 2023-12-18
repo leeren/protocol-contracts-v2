@@ -42,4 +42,3 @@ deploy-goerli :; npx hardhat run ./script/deploy-reveal-engine.js --network goer
 verify-goerli :; npx hardhat verify --network goerli ${contract}
 
 anvil :; anvil -m 'test test test test test test test test test test test junk'
-
